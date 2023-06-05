@@ -1,0 +1,31 @@
+{
+    "name": "cpms/mot-cpms-queues",
+    "type": "library",
+    "license": "proprietary",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "aws/aws-sdk-php": "^3.190",
+        "ramsey/uuid": "^4.2.1",
+        "seld/jsonlint": "^1.8"
+    },
+    "require-dev": {
+        "captainhook/captainhook": "^5.16",
+        "captainhook/plugin-composer": "^5.3",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "DVSA\\CPMS\\Queues\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts" : {
+        "test": "vendor/bin/phpunit -c phpunit.xml"
+    },
+    "config": {
+        "allow-plugins": {
+            "captainhook/plugin-composer": true
+        }
+    }
+}
