@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" colors="true" bootstrap="vendor/autoload.php" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.3/phpunit.xsd">
+  <coverage>
+    <include>
+      <directory suffix=".php">./src/</directory>
+    </include>
+    <report>
+      <clover outputFile="review/logs/phpunit.xml"/>
+      <html outputDirectory="review/code-coverage"/>
+    </report>
+  </coverage>
+  <testsuites>
+    <testsuite name="DVSA/CPMS/Queues">
+      <directory>./tests/</directory>
+    </testsuite>
+  </testsuites>
+  <logging>
+    <junit outputFile="review/logs/phpunit-junit.xml"/>
+    <testdoxHtml outputFile="review/testdox.html"/>
+    <testdoxText outputFile="review/testdox.txt"/>
+  </logging>
+</phpunit>
