@@ -3,8 +3,8 @@
     "type": "library",
     "license": "proprietary",
     "require": {
-        "php": "^7.4 || ^8.0",
-        "aws/aws-sdk-php": "^3.273",
+        "php": "^8.2",
+        "aws/aws-sdk-php": "^3.288.1",
         "ramsey/uuid": "^4.2.1",
         "seld/jsonlint": "^1.8"
     },
