@@ -8,7 +8,7 @@ use PHPUnit\Framework\TestCase;
 /**
  * @coversDefaultClass DVSA\CPMS\Queues\MultipartMessages\ValueBuilders\EncodeMultipartMessage
  */
-class EncodeMultipartMessageMessageTest extends TestCase
+class EncodeMultipartMessageTest extends TestCase
 {
     /**
      * @coversNothing

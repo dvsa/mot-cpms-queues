@@ -74,7 +74,7 @@ class IsValidEncryptionTypeTest extends TestCase
     {
         return [
             [ 'aes-128-cbc', true ],
-            [ 'des-cbc', true ],
+            [ 'des-cbc', false ],
             [ 'sha256', false ],
             [ 'trout', false ],
         ];
