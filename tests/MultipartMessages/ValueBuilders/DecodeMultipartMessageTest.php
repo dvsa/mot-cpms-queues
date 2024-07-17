@@ -11,7 +11,7 @@ use PHPUnit\Framework\TestCase;
 /**
  * @coversDefaultClass DVSA\CPMS\Queues\MultipartMessages\ValueBuilders\DecodeMultipartMessage
  */
-class DecodeMultipartMessageMessageTest extends TestCase
+class DecodeMultipartMessageTest extends TestCase
 {
     /**
      * @coversNothing
